@@ -9,3 +9,16 @@ RUN apt update \
     && rm libclips_6.30-4+b1_amd64.deb libclips-dev_6.30-4+b1_amd64.deb \
     && pip install iclips
 USER $NB_UID
+ARG BUILD_DATE
+ARG VCS_REF
+ARG VCS_URL
+ARG VERSION
+LABEL   org.label-schema.build-date=$BUILD_DATE \
+        org.label-schema.name="JupyterClips" \
+        org.label-schema.description="image with iclips kernel for jupyter-notebook" \
+        org.label-schema.url="https://hub.docker.com/r/krosf/JupyterClips/" \
+        org.label-schema.vcs-ref=$VCS_REF \
+        org.label-schema.vcs-url=$VCS_URL \
+        org.label-schema.version=$VERSION \
+        org.label-schema.schema-version="1.0" \
+        MANTAINER="Rodrigo Sanabria <rodrigosanabria22@gmail.com>" 
