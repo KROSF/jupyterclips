@@ -1,0 +1,1 @@
+# [![Build Status](https://dev.azure.com/rodrigosanabria22/krosf/_apis/build/status/KROSF.JupyterClips?branchName=master)](https://dev.azure.com/rodrigosanabria22/krosf/_build/latest?definitionId=9?branchName=master)
