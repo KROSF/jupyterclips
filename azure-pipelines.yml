@@ -1,0 +1,6 @@
+pool:
+  vmImage: 'macos-10.13'
+
+steps:
+- script: make PSWD=$(PSWD) DOCKER_ID=$(DOCKER_ID) NAME=JupyterClips release
+  displayName: build and push to docker hub
