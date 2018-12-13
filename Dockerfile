@@ -14,9 +14,9 @@ ARG VCS_REF
 ARG VCS_URL
 ARG VERSION
 LABEL   org.label-schema.build-date=$BUILD_DATE \
-        org.label-schema.name="JupyterClips" \
+        org.label-schema.name="jupyterclips" \
         org.label-schema.description="image with iclips kernel for jupyter-notebook" \
-        org.label-schema.url="https://hub.docker.com/r/krosf/JupyterClips/" \
+        org.label-schema.url="https://hub.docker.com/r/krosf/jupyterclips/" \
         org.label-schema.vcs-ref=$VCS_REF \
         org.label-schema.vcs-url=$VCS_URL \
         org.label-schema.version=$VERSION \
