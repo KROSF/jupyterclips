@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'macos-10.13'
+  vmImage: 'Ubuntu 16.04'
 
 steps:
 - script: make PSWD=$(PSWD) DOCKER_ID=$(DOCKER_ID) NAME=JupyterClips release
